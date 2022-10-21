@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Personal portfolio</title>
+<script src="https://kit.fontawesome.com/e5b3d06da0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="img/logomi.png" class="logo" alt="logo">
+      <ul id ="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact </a></li>
+        <i class="fa-solid fa-circle-xmark" onclick = "closemenu()"></i>
+      </ul>
+      <i class="fa-sharp fa-solid fa-bars" onclick ="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Junior Full Stack<br> web developer</p>
+      <h1> Hi, I am <span>Irina</span></h1>
+    </div>
+  </div>
+</div>
+<!-- ------------------------about -------------- -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="img/pic.jpg" alt="">
+      </div>
+        <div class="about-col-2">
+          <h1 class = "sub-title">About me</h1>
+          <p>Hello All! My name is Irina, I come from Romania, I moved to the UK few years ago. In January I decided to take the first step in Tech world so I found out about one course - Azure Fundamentals-. I learned a lot of new things about cloud,things that made me want to discover more information related to the cloud architecture, but at that point I wasn't sure which path to choose so my tutor advised me to look for Boot Camp. A friend told me about Code your Future and I decided to look for more information.<br> After doing the Intro Digital Course an idea came across that I should develop these new skills into something more.For me a career in Tech would mean more progression opportunities in my life because the tech industry is evolving and advancing, there is no day without learning something new, so my purpose is to become a full stack developer
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id ="skills">
+              <ul>
+                <li><span>HTML/CSS</span><br>Website developer</li>
+                <li><span>JavaScript</span><br>App developement</li>
+                <li><span>App developer</span><br>Design</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id ="experience">
+              <ul>
+                <li><span>2016-Current</span><br>Operation asistant</li>
+                <li><span>2022</span><br>Web app deve</li>
+                <li><span>2021</span><br>Design</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id = "education">
+              <ul>
+                <li><span>2022 Code your Future</span><br>Full stack developer</li>
+                <li><span>2021 -Learning Curve</span><br>Azure 900 Fundamentals</li>
+                <li><span>2008-2011</span><br>Bachelor of Social Work</li>
+              </ul>
+            </div>
+          </p>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- ------------------------services------------- -->
+<div id="services">
+  <div class="container">
+  <h1 class = "sub-title">My services</h1>
+  <div class="services-list">
+    <div>
+      <i class="fa-sharp fa-solid fa-code"></i>
+      <h2>web design</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At enim eligendi adipisci dolorum architecto odit quae ipsam ipsum omnis nemo corporis necessitatibus ea distinctio a quo debitis, hic, pariatur odio.</p>
+      <a href="">Learn More</a>
+    </div>
+    <div>
+      <i class="fa-solid fa-crop-simple"></i>
+      <h2>ui design</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At enim eligendi adipisci dolorum architecto odit quae ipsam ipsum omnis nemo corporis necessitatibus ea distinctio a quo debitis, hic, pariatur odio.</p>
+      <a href="">Learn More</a>
+    </div>
+    <div>
+      <i class="fa-brands fa-app-store-ios"></i>
+      <h2>App design</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At enim eligendi adipisci dolorum architecto odit quae ipsam ipsum omnis nemo corporis necessitatibus ea distinctio a quo debitis, hic, pariatur odio.</p>
+      <a href="">Learn More</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- 
+----------------------------Porfolio---------------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class = "sub-title">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="img/work-1.png" alt="">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in dolor sunt eius, vero libero excepturi ratione exercitationem. Autem rem ea tempora neque. Beatae tenetur repellendus dolor? Quam, voluptatum facilis?</p>
+          <a href=""><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="img/work-2.png" alt="">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in dolor sunt eius, vero libero excepturi ratione exercitationem. Autem rem ea tempora neque. Beatae tenetur repellendus dolor? Quam, voluptatum facilis?</p>
+          <a href=""><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="img/work-3.png" alt="">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in dolor sunt eius, vero libero excepturi ratione exercitationem. Autem rem ea tempora neque. Beatae tenetur repellendus dolor? Quam, voluptatum facilis?</p>
+          <a href=""><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class = "btn">See more</a>
+  </div>
+</div>
+
+<!-- ------------------contact------------------------- -->
+<div id = "contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class = "sub-title">Contact Me</h1>
+        <p><i class="fa-light fa-paper-plane-top"></i>irinamihai150@gmail.com</p>
+        <p><i class="fa-thin fa-phone-volume"></i> 07828033..</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/irinamih/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/irinamihai150"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="img/Technical cv.doc" download class = "btn btn2">Download cv</a>
+      </div>
+      
+      <div class="contact-right">
+        <form name = "submit-to-google-sheet">
+          <input type="text" name = "Name" placeholder = "Your Name" required>
+          <input type="email" name="email" placeholder = "Your Email" required>
+          <textarea name="Message" rows="6" placeholder = "Your Message"></textarea>
+        <button type="submit" class = "btn btn2">Submit</button>
+        </form>
+        <span id ="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @Irina<i class="fa-regular fa-heart"></i>M</p>
+  </div>
+</div>
+<script>
+  let tabLinks = document.getElementsByClassName("tab-links");
+  let tabContents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tabLink of tabLinks){
+      tabLink.classList.remove("active-link")
+    }
+      for(tabContent of tabContents){
+      tabContent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>  
+<script>
+  let sidemenu = document.getElementById("sidemenu")
+  function openmenu(){
+    sidemenu.style.right = "0"
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px"
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzhYw288gdhymC1rWfxbeU0nKuwp1pcdG00wW38N2TulAzeLR2MpWYcShc2TQDSedI/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message Sent succesfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
