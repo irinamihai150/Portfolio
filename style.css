@@ -30,7 +30,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -383,7 +383,7 @@ form bt2 {
 }
 
 /* ------------------media query for small screen-------- */
-nav .fa-solid {
+nav .fa-solid{
   display: none;
 }
 
@@ -400,7 +400,7 @@ nav .fa-solid {
   .header-text h1{
     font-size: 13px;
   }
-
+/* to check */
   nav .fa-solid{
     display: block;
     font-size: 25px;
@@ -413,8 +413,8 @@ nav .fa-solid {
     right: -200px;
     width: 200px;
     height: 100vh;
-    padding-top: 50px;
-    z-index:2 ;
+    padding-top:50px;
+    z-index:2;
     transition: right 0.5s;
   }
 
